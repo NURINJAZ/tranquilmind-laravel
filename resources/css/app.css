@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.background-cover {
+    background-image: url('{{ asset('images/background.png') }}');
+    background-color: rgba(0, 123, 255, 0.5); /* Blue overlay with 50% opacity */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+
